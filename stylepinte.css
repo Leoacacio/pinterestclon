@@ -1,0 +1,127 @@
+
+
+body {
+    background-color: white;
+    font-family:link href="https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@100&family=Pacifico&family=Roboto:wght@100&display=swap" rel="stylesheet"
+
+}
+
+header nav {
+    display:contents;
+    justify-content:center;
+    align-items:normal;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(250, 15, 15);
+}
+
+header nav  img#pinterest-icon {
+    width: 35px;
+    height: 32px;
+    padding: 4px;
+}
+
+header nav  img#pinterest-icon:hover {
+    background-color: #eb1919;
+    
+}
+
+.first{
+    display: flex;
+}
+
+.first a {
+    text-decoration: none;
+    color: #040404;
+}
+
+.first li {
+    list-style: none;
+    padding: 0px 12px;
+}
+
+.first li #inicio {
+    background-color: #111111;
+    color: white;
+    border-radius: 25px;
+    padding: 14px 12px 14px;
+}
+
+
+.menu {
+    display: none;
+}
+
+.crear {
+    display: flex;
+}
+
+.buscador {
+    flex-grow: 1;
+    height: 48px;
+    background-color: #3f3e3e41;
+    border-radius: 20px;
+
+}
+
+.buscador:hover {
+    background-color: #eeeded;
+}
+
+.buscador:focus-within {
+    border: 2px solid #000000;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+
+#lupa {
+    padding: 10px;
+    color: #767676;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.barra input {
+    border: none;
+    outline: none;
+    background-color: none;
+    padding: 0px 8px 0px 0px;
+    font-size: 20px;
+    flex-grow: 8;
+}
+
+.barra input:hover + .material-symbols-outlined {
+    display: none;
+}
+
+/*ACA VAN LAS FOTOS*/
+
+.contenido {
+    position:relative;
+    margin-top:20px;
+    padding-right: 100px;
+}
+
+.imagenes {
+    columns: 6 ;
+    margin: 10px;;
+
+}
+
+.imagenes .card-image {
+    position: relative;
+    padding: 5px;
+}
+
+.imagenes .card-image img {
+    border-radius: 10%;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+
+
